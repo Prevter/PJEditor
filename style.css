@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.material-icons {
+    margin-right: 4px;
+    font-size: 20px !important;
+}
+
+.checkbox-menu li label {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    margin:0;
+}
+.checkbox-menu li {
+    padding: 0px !important;
+}
+
+.checkbox-menu li input {
+    margin: 0px 5px;
+    top: 2px;
+    position: relative;
+}
+
+.checkbox-menu li.active label {
+    background-color: #cbcbff;
+    font-weight:bold;
+}
+
+.checkbox-menu li label:hover,
+.checkbox-menu li label:focus {
+    background-color: #f5f5f5;
+}
+
+.checkbox-menu li.active label:hover,
+.checkbox-menu li.active label:focus {
+    background-color: #b8b8ff;
+}
+
+.dropdown-menu li {
+    padding: 7px 16px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #ccc;
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.dropdown-toggle {
+    color: black;
+    padding: 5px 10px !important;
+}
+
+.dropdown-toggle:hover {
+    color: black;
+    background: #f1f1f1;
+}
+
+.nav {
+    background: #fafafa;
+    width: 100%;
+}
+
+
+
+#objectProperties {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    width: 240px;
+    background: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    padding: .3rem 1rem;
+}
+
+.list-group-item:hover{
+    background: #e3e3e3;
+}
